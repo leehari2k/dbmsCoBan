@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="55ecb9a27ff04afa9022b1e731775647" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="CKDBMSModel.Khachhang" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Nhanvien" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Phong" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Taikhoan" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Thue" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Khachhang_View" Width="1.5" PointX="7.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.Taikhoan_view" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.ThueAd_view" Width="1.5" PointX="8.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CKDBMSModel.ThueTN_view" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CKDBMSModel.FK_Khachhang_Nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="CKDBMSModel.FK_Thue_Khanghang" ManuallyRouted="false" />
+        <AssociationConnector Association="CKDBMSModel.FK_Taikhoan_Nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="CKDBMSModel.FK_Thue_Nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="CKDBMSModel.FK_Thue_Phong" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
